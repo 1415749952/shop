@@ -1,0 +1,1 @@
+<view class="root"><image src="../../static/icon/1.png" mode="aspectFit"></image><view class="info"><view data-event-opts="{{[['tap',[['call',['$event']]]]]}}" bindtap="__e">电话号码:400-618-9090</view><view>地址：XXXXXXXXXXX</view></view><map class="map" longitude="{{longitude}}" scale="{{scale}}" latitude="{{latitude}}" markers="{{markers}}"></map></view>

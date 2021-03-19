@@ -1,0 +1,1 @@
+<view class="good-list"><block wx:for="{{goodsIn}}" wx:for-item="good" wx:for-index="__i0__"><view data-event-opts="{{[['tap',[['jump',['$0'],[[['goodsIn','',__i0__,'imagPath']]]]]]]}}" bindtap="__e"><image src="{{good.imagPath}}"></image><text>{{good.xianjia+"-----"}}</text><text>{{good.yuanjia+"----"}}</text><text>{{good.miaoshu}}</text></view></block></view>
